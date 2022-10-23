@@ -24,20 +24,20 @@ public class GET2ndlastNO {
 //		System.out.println("Second Largest:"+getSecondLargest(b,7));
 //	}
 
-	
 // or
-	
-	
-	public class SecondLargestInArrayExample1{
-		public static int getSecondLargest(int[] a, int total){
+
+	public class SecondLargestInArrayExample1 {
+		public static int getSecondLargest(int[] a, int total) {
 			Arrays.sort(a);
-			return a[total-2];
+			return a[total - 2];
 		}
-		public static void main(String args[]){
-			int a[]={1,2,5,56,23,68};
+
+		public static void main(String args[]) {
+			int a[] = { 1, 2, 5, 56, 23, 68 };
 //			int b[]={44,66,99,77,33,22,55};
-			System.out.println("Second Largest: "+getSecondLargest(a,6));
+			System.out.println("Second Largest: " + getSecondLargest(a, 6));
 //			System.out.println("Second Largest: "+getSecondLargest(b,7));
-		}}
+		}
+	}
 
 }

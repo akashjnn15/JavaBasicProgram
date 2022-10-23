@@ -2,7 +2,7 @@
 public class VowelsCount {
 
 	public static void main(String [] args) {
-		String x = "darshan mehtre";
+		String x = "Akash Duggappa";
 		int count = 0;
 		for ( int i=0 ; i<x.length(); i++) {
 			Character c = x.charAt(i);
