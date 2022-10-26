@@ -3,7 +3,7 @@ public class StringLength {
 
 	public static void main(String[] args) {
 
-		String x = "darshan";
+		String x = "Akash";
 		System.out.println("The length of the string is: "+x.length());
 	}
 
