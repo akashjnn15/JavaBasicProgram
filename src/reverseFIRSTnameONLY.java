@@ -1,7 +1,7 @@
 public class reverseFIRSTnameONLY {
 	
 	public static void main(String [] args) {
-		String x = "Darshan Mehtre";
+		String x = "Akash Maluvadi Duggappa";
 		String Array[] = x.split(" ");
 		String y = Array [0];
 		String z = Array [1];
